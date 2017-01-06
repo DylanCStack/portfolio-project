@@ -61,6 +61,10 @@ li {
   margin:15px;
 }
 
+div:hover{
+
+}
+
 .panel-info {
   background-color:#d9edf7;
 }
@@ -85,4 +89,15 @@ li {
 
 .panel-success blockquote {
   background-color:#cef2e0;
+}
+
+.row {
+  width:100%;
+  padding:7px;
+}
+
+.row>* {
+  min-height: 265px;
+  border: 2px solid skyblue;
+
 }
