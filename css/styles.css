@@ -32,7 +32,7 @@ figure {
   border-bottom-left-radius: 100px;
   border-bottom-right-radius: 100px;
   padding:5px;
-  min-height: 225px;
+  min-height: 250px;
   text-align: center;
   border:1px solid black;
 
@@ -48,7 +48,7 @@ figure img {
 }
 
 figcaption {
-  padding-top: 15px;
+  padding-top: 6px;
 }
 
 blockquote li {
