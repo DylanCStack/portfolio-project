@@ -80,6 +80,7 @@ li {
 
 .panel-info .panel-heading {
   background-color:#cedff2;
+  border:1px solid lightgrey;
   color:black;
 }
 
@@ -93,6 +94,7 @@ li {
 
 .panel-success .panel-heading {
   background-color:#cef2e0;
+  border:1px solid lightgrey;
   color:black;
 }
 
