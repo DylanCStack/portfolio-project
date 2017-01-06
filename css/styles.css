@@ -23,7 +23,7 @@ figure {
   border-bottom-left-radius: 100px;
   border-bottom-right-radius: 100px;
   padding:5px;
-  min-height: 250px;
+  min-height: 225px;
   text-align: center;
   border:1px solid black;
 
@@ -72,4 +72,17 @@ li {
 
 .panel-info blockquote {
   background-color:#cedff2;
+}
+
+.panel-success {
+  background-color:#dff0d8;
+}
+
+.panel-success .panel-heading {
+  background-color:#cef2e0;
+  color:black;
+}
+
+.panel-success blockquote {
+  background-color:#cef2e0;
 }
