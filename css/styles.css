@@ -6,8 +6,17 @@
 .sidebar {
   float:left;
   width:13%;
-
+  margin-top: 15em;
 }
+
+.sidebar h4, .sidebar h5 {
+  text-decoration: underline;
+}
+
+.sidebar li{
+  padding-left:15px;
+}
+
 .content {
   float:right;
   width:80%;
@@ -38,6 +47,10 @@ figure img {
   height: auto;
 }
 
+figcaption {
+  padding-top: 15px;
+}
+
 blockquote li {
   font-size: 12px;
 }
@@ -59,10 +72,6 @@ li {
 
 .panel>* {
   margin:15px;
-}
-
-div:hover{
-
 }
 
 .panel-info {
@@ -94,10 +103,25 @@ div:hover{
 .row {
   width:100%;
   padding:7px;
+  text-align: justify;
 }
 
 .row>* {
   min-height: 265px;
+  height:100%;
   border: 2px solid skyblue;
+  background-color:beige;
 
+}
+
+.row>*:hover {
+  background-color:lightgreen;
+}
+
+.row>*:hover a {
+  text-decoration: underline;
+}
+
+.row h3 {
+  text-align: center;
 }
