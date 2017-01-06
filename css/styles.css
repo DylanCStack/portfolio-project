@@ -8,6 +8,27 @@
   width:75%;
 }
 
+figure {
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  padding:5px;
+  min-height: 250px;
+  text-align: center;
+  border:1px solid black
+
+}
+
+figure img {
+  width:100%;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  height: auto;
+}
+
 ul {
   list-style: none;
   margin:0px;
